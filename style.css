@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.tituloprincipal,  .tituloformulario{
+    font-weight: bold;
+    color: dodgerblue;
+}
+.formulario {
+    border: 1px solid #3333;
+    width: 450px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.tituloformulario{
+   text-align: center;
+   margin: 10px 0px;
+
+}
+
+.caixacampo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0px;
+}
+.btnEnviar{
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 10px;
+    border: nome;
+    border-radius: 5px;
+    color: white;
+ }
+ .campoformulario{
+    border: 1px;padding: 10px;
+    border: nome;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
